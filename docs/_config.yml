@@ -19,20 +19,21 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ArcheostorieJPA Guidelines
-email: your-email@example.com
+email: info@archeostoriejpa.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/editorial-style/docs" 
-url: "https://archeostoriejpa.github.io"
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/docs" 
+url: "https://archeostoriejpa.github.io/editorial-style"
+twitter_username: ArcheostorieJPA
+github_username:  ArcheostorieJPA
 
 # Build settings
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-default-layout
 
 # Exclude from processing.
 # The following items will not be processed, by default.
